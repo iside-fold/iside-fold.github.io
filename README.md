@@ -32,6 +32,8 @@ $ ./ISIDE -t 38 -j job01 -n 4 -f examples/pbmtx/a_9.pbmtx -s 1000 -i RVIAMPSVRKY
 $ ./ISIDE -t 38 -c examples/folds/a_9.pdb -j job01 -n 4 -f examples/pbmtx/a_9.pbmtx -s 1000 -y 0.20
 $ ./ISIDE -t 38 -c examples/folds/a_9.pdb -j job01 -n 15 -f examples/pbmtx/a_9.pbmtx -s 1000 -r 0.08
 ```
+
+
 Note: The tabu list size should be selected based on the protein sequence length, so that (seq length)x0.5 < [-t arg] < (seq length)x2
 
 ###### © 2019 Postic G, Santuz H, Deniau R, Gelly JC.
