@@ -37,9 +37,9 @@ $ ./ISIDE -t 38 -c examples/folds/a_9.pdb -j job01 -n 15 -f examples/pbmtx/a_9.p
 #### Note: The tabu list size should be selected based on the protein sequence length, so that (seq length)x0.5 < [-t arg] < (seq length)x2
 
 ### References
-1. [Glover, F. (1989). Tabu search—part I. ORSA Journal on computing, 1(3), 190-206.] (https://pubsonline.informs.org/doi/abs/10.1287/ijoc.1.3.190)
-2. [Glover, F. (1990). Tabu search—part II. ORSA Journal on computing, 2(1), 4-32.] (https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2.1.4)
-3. [De Brevern, A. G., Etchebest, C., & Hazout, S. (2000). Bayesian probabilistic approach for predicting backbone structures in terms of protein blocks. Proteins: Structure, Function, and Bioinformatics, 41(3), 271-287.] (https://onlinelibrary.wiley.com/doi/full/10.1002/1097-0134%2820001115%2941%3A3%3C271%3A%3AAID-PROT10%3E3.0.CO%3B2-Z)
+1. [Glover, F. (1989). Tabu search—part I. ORSA Journal on computing, 1(3), 190-206.](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.1.3.190)
+2. [Glover, F. (1990). Tabu search—part II. ORSA Journal on computing, 2(1), 4-32.](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2.1.4)
+3. [De Brevern, A. G., Etchebest, C., & Hazout, S. (2000). Bayesian probabilistic approach for predicting backbone structures in terms of protein blocks. Proteins: Structure, Function, and Bioinformatics, 41(3), 271-287.](https://onlinelibrary.wiley.com/doi/full/10.1002/1097-0134%2820001115%2941%3A3%3C271%3A%3AAID-PROT10%3E3.0.CO%3B2-Z)
 
 
 ###### © 2019 Postic G, Santuz H, Deniau R, Gelly JC.
