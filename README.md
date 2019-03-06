@@ -32,9 +32,9 @@ $ ./ISIDE -t 38 -j job01 -n 4 -f examples/pbmtx/a_9.pbmtx -s 1000 -i RVIAMPSVRKY
 $ ./ISIDE -t 38 -c examples/folds/a_9.pdb -j job01 -n 4 -f examples/pbmtx/a_9.pbmtx -s 1000 -y 0.20
 $ ./ISIDE -t 38 -c examples/folds/a_9.pdb -j job01 -n 15 -f examples/pbmtx/a_9.pbmtx -s 1000 -r 0.08
 ```
+-
 
-
-#### Note: The tabu list size should be selected based on the protein sequence length, so that (seq length)x0.5 < [-t arg] < (seq length)x2
+Note: The tabu list size should be selected based on the protein sequence length, so that (seq length)x0.5 < [-t arg] < (seq length)x2
 
 ### References
 1. [Glover, F. (1989). Tabu search—part I. ORSA Journal on computing, 1(3), 190-206.](https://pubsonline.informs.org/doi/abs/10.1287/ijoc.1.3.190)
