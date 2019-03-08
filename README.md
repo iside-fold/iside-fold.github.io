@@ -4,7 +4,7 @@ The ISIDE algorithm can predict the threedimensional structure of proteins throu
 &nbsp;  
 The method is entirely implemented in C++ and can be run in parallel on UNIX-like operating systems.
 
-### Install
+# Install
 
 Compile ISIDE:
 ```markdown
