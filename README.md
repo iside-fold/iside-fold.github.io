@@ -1,6 +1,6 @@
 ## Ab initio protein folding
 
-The ISIDE algorithm can predict the threedimensional structure of proteins through a metaheuristic exploration (tabu search [1,2]) of a conformational space discretized by the use of a structural alphabet (Protein Blocks [3]).  
+The ISIDE algorithm can predict the threedimensional structure of proteins through a metaheuristic exploration (tabu search <sup>1,2</sup>) of a conformational space discretized by the use of a structural alphabet (Protein Blocks <sup>3</sup>).  
 The method is entirely implemented in C++ and can be run in parallel on UNIX-like operating systems.
 
 ### Install
